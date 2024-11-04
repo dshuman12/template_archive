@@ -19,6 +19,7 @@ def import_data():
     return(df)
 
 def run_regression(df):
+    df = df[df['year'] >= 1960]
     df = df.set_index(['county_id', 'year'])
     model = PanelOLS.from_formula('chips_sold ~ 1 + post_tv + EntityEffects + TimeEffects', data = df)
     fit = model.fit()

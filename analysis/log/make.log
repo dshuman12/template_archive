@@ -1,12 +1,10 @@
 --------------------------------------------------------------------------------
-Makelog started: 2024-11-03 15:12:08
+Makelog started: 2024-11-03 18:54:40
 Working directory: /Users/danielashuman/Documents/Projects/IDCP/template_archive/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
-WARNING! The following target files have been modified according to git status:
-/Users/danielashuman/Documents/Projects/IDCP/template_archive/data/output/data_cleaned.csv
 Version logs successfully written!
 Executing command: `python  "/Users/danielashuman/Documents/Projects/IDCP/template_archive/analysis/code/analyze_data.py" `
 /Users/danielashuman/anaconda3/envs/template/lib/python3.13/site-packages/linearmodels/panel/model.py:1260: MissingValueWarning: 
@@ -15,6 +13,6 @@ Inputs contain missing values. Dropping rows with missing observations.
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2024-11-03 15:12:11
+Makelog ended: 2024-11-03 18:54:43
 Working directory: /Users/danielashuman/Documents/Projects/IDCP/template_archive/analysis
 --------------------------------------------------------------------------------
